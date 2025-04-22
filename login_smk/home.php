@@ -5,5 +5,8 @@ session_start();
         exit;
     }
 ?>
+<div class="container">
+<link rel="stylesheet" href="style.css">
 <h1>Selamat Datang <?php echo $_SESSION['user']; ?>!</h1>
-<a href="logout.php">Logout</a>
+<center><a href="logout.php">Logout</a></center>
+</div>
